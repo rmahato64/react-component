@@ -1,0 +1,327 @@
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(65, 65, 65);
+}
+.divForImage, .divFortext{
+    width: 50%;
+}
+.image1{
+    width: 100%;
+}
+.main-button{
+    border: none;
+    width: 200px;
+    height: 50px;
+    margin-top: 1rem;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    background: #4788c8;
+    border-radius: 5px;
+
+}
+.circle {
+    height: 70px;
+    width: 70px;
+    background-color: rgb(133, 135, 138);
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .fas {
+    line-height: 1;
+    margin-top: -0.5em;
+    padding-top: 50%;
+    width: 100%;
+    text-align: center;
+  }
+  .thirdtop{
+      display: flex;
+      justify-content: space-between;
+
+  }
+  .ThirdpartMain{
+      padding:1rem;
+      text-align: center;
+  }
+  .whiteText{
+      color: seashell;
+  }
+  .header-bottom {
+    width: 80%;
+    background: #4788c8;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .header-bottom:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 0;
+    height: 0;
+    border-top: 60px solid #4788c8;
+    border-right: 60px solid transparent;
+  }
+  .outer{
+      background-color:rgb(65, 65, 65);
+
+  }
+  .recent-work {
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .recent-work-img{
+      border: 1px solid orange;
+      margin: 1rem;
+      width: 32.8%;
+      text-align: center;
+    
+  }
+  .recent-work-img > div>img{
+    border: 1px solid green;
+    width: 100%;
+   
+  }
+  .ThirdpartMain {
+    display: flex;
+    padding: 10px;
+    /* flex: 0 1 20%; */ /* grow shrink width */
+    flex-basis: 21%;
+    flex-flow: column wrap;
+    align-items: center;
+  
+    text-align: center;
+    position: relative;
+  }
+  .ThirdpartMain:hover {
+    background-color: white;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(179, 172, 179, 1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(179, 172, 179, 1);
+    box-shadow: 10px 10px 5px 0px rgba(179, 172, 179, 1);
+  }
+  .ThirdpartMain:hover:before {
+    content: "";
+    height: 0;
+    width: 0;
+    border-top: 40px solid white;
+    border-right: 45px solid transparent;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+
+  /* --- CSS For footer part only */
+
+  .touch {
+    width: 80%;
+    background: #4788c8;
+    padding: 10px 2rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .touch:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 60px solid #4788c8;
+    border-right: 60px solid transparent;
+  }
+  
+  .bottom {
+    background: rgb(65, 65, 65);
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .news {
+    width: 22%;
+    margin-top: 1.5rem;
+  }
+  
+  .news pre {
+    padding: 0.5rem;
+  }
+  
+  .news h2 {
+    padding-bottom: 20px;
+  }
+  
+  .news span,
+  h2 {
+    color: white;
+  }
+  
+  .flicker {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-flow: row;
+    flex-wrap: wrap;
+  }
+  
+  .square {
+    width: 3rem;
+    height: 3rem;
+    background: #212121;
+    margin: 0.1rem;
+  }
+  
+  .bottom-main {
+    background: rgb(65, 65, 65);
+    padding: 50px;
+    color: #8d8d8d;
+  }
+
+  .foo {
+    width: 100%;
+    background: #343434;
+    padding: 3rem;
+  }
+  
+  .foo-below {
+    width: 80%;
+    color: #8d8d8d;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer {
+    width: 40%;
+  }
+  
+  .social {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    font: 2rem;
+  }
+  
+  /* Hover on Parent Container */
+  
+  .social:hover i {
+  cursor: pointer;
+  }
+  
+  .fab,
+  .fas {
+    font-size: 2rem;
+  }
+  
+  .social div{
+      position: relative;
+  }
+  
+  .fadiv .facebook {
+    visibility: hidden;
+    width: 100px;
+    background-color: #D8D1D0;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 2.5rem;
+    left: 5%;
+  }
+  
+  .vidiv .vimeo {
+    visibility: hidden;
+    width: 120px;
+    background-color: #D8D1D0;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    bottom: 2.5rem;
+    left: 5%;
+  }
+  
+  .twi .twitter {
+    visibility: hidden;
+    width: 120px;
+    background-color: #D8D1D0;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    bottom: 2.5rem;
+    left: 2%;
+  }
+  
+  .insta .instagram {
+    visibility: hidden;
+    width: 120px;
+    background-color: #D8D1D0;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    bottom: 2.5rem;
+    left: 2%;
+  }
+  
+  .go .google {
+    visibility: hidden;
+    width: 120px;
+    background-color: #D8D1D0;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    bottom: 2.5rem;
+    left: 2%;
+  }
+  
+  .pin .pinterest {
+    visibility: hidden;
+    width: 120px;
+    background-color: #D8D1D0;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    bottom: 2.5rem;
+    left: 2%;
+  }
+  
+  .fadiv:hover .facebook {
+    visibility: visible;
+  }
+  
+  .vidiv:hover .vimeo {
+    visibility: visible;
+  }
+  
+  .twi:hover .twitter {
+    visibility: visible;
+  }
+  .insta:hover .instagram {
+      visibility: visible;
+    }
+    .pin:hover .pinterest {
+      visibility: visible;
+    }
+    .go:hover .google {
+      visibility: visible;
+    }
