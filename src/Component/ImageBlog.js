@@ -1,7 +1,7 @@
 import React,{Component} from 'react'
 import imgplaceholder from '../assets/img-placeholder.png'
 
-class ImageBlog extends Component{
+export default class ImageBlog extends Component{
     render(){
         return(
             <div className="recent-work">
@@ -33,5 +33,3 @@ class ImageBlog extends Component{
         )
     }
 }
-
-export default ImageBlog

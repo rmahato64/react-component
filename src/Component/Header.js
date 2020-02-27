@@ -2,7 +2,7 @@ import React,{Component} from 'react'
 import HeaderImage from '../assets/Header-img.png'
 
 
-class Header extends Component{
+export default class Header extends Component{
     render(){
         return (
             <div className='outer'>
@@ -32,4 +32,3 @@ class Header extends Component{
     }
     
 }
-export default Header

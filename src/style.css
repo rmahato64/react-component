@@ -72,6 +72,14 @@
       background-color:rgb(65, 65, 65);
 
   }
+  .start-button {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    margin: auto 0px;
+    background-color: aliceblue;
+  }
+  
   .recent-work {
     display: flex;
     justify-content: space-between;
@@ -116,6 +124,102 @@
     top: 100%;
     left: 0;
   }
+
+/* ---CSS for smith part */
+
+.border-box1 {
+  width: 80%;
+  border-image: url(./assets/Border-BG.jpg) 30 round;
+  border-bottom: 10px solid transparent;
+  text-align: center;
+  margin: 50px auto;
+  position: relative;
+}
+
+.border-box1 span {
+  font-size: 28px;
+  color: #3f3f3f;
+  background: #efefef;
+  padding: 0.4rem 1rem;
+  position: absolute;
+}
+
+.design {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.design-inner {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+
+.smith {
+  width: 47%;
+  background: #ffffff;
+  box-shadow: 5px 1px 5px -1px rgb(0, 0, 0, 0.19);
+  position: relative;
+  margin: 3rem auto;
+}
+
+.smith h3 {
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.smith p {
+  padding: 1rem;
+}
+
+.smith::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-top: 40px solid #ffffff;
+  border-right: 40px solid transparent;
+}
+
+.recent-work-img p,
+h3 {
+  background: #ffffff;
+}
+
+.design-right {
+  width: 28%;
+  background: white;
+}
+
+.design1 {
+  width: 30%;
+  background: #ffffff;
+}
+
+.design2 {
+  width: 70%;
+  background: gray;
+}
+
+.design-right h3 {
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.design-right p {
+  padding: 0 1rem;
+}
+
+.design12 {
+  display: flex;
+}
+
 
   /* --- CSS For footer part only */
 

@@ -1,6 +1,6 @@
 import React,{Component} from 'react'
 
-class Thirdpart extends Component{
+export default class Thirdpart extends Component{
     render(){
         return(
             <div className="ThirdpartMain">
@@ -16,5 +16,3 @@ class Thirdpart extends Component{
         )
     }
 }
-
-export default Thirdpart
